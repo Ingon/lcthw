@@ -13,7 +13,9 @@ all:
 	# make ex12
 	# make ex13
 	# make ex14
-	make ex15
+	# make ex15
+	# make ex16
+	make ex17
 
 clean:
 	# rm -f ex1
@@ -38,7 +40,11 @@ clean:
 	# rm -rf ex12.dSYM
 	# rm -f ex13
 	# rm -rf ex13.dSYM
-	rm -f ex14
-	rm -rf ex14.dSYM
-	rm -f ex15
-	rm -rf ex15.dSYM
+	# rm -f ex14
+	# rm -rf ex14.dSYM
+	# rm -f ex15
+	# rm -rf ex15.dSYM
+	rm -f ex16
+	rm -rf ex16.dSYM
+	rm -f ex17
+	rm -rf ex17.dSYM

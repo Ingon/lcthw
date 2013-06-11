@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+void printPointed(int count, char **names, int *ages)
+{
+	int i = 0;
+	for(i = 0; i < count; i++) {
+		printf("%s -> %d\n", names[i], ages[i]);
+	}
+}
+
 int main(int argc, char *argv[])
 {
 	int ages[] = {23, 43, 12, 89, 2};
@@ -38,4 +46,18 @@ int main(int argc, char *argv[])
 
 		printf("%s lived %d years so far.\n", *cur_name, *cur_age);
 	}
+
+	char *name = cur_name[0];
+	printf("xxx -> %s\n", name);
+
+	cur_age = ages;
+	cur_name = names;
+
+	for(i = 0; i < count; i++) {
+		printf("%s points to > %p\n", cur_name[i], &cur_name[i]);
+	}
+
+	printPointed(count, names, ages);
+	printPointed(count, cur_name, cur_age);
+	printPointed(count, &names[0], &ages[0]);
 }
