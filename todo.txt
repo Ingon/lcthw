@@ -3,3 +3,5 @@
 3. ex24 - io functions
 4. ex25 - varargs
 5. ex33 - improve/extra
+6. ex34 - improve/extra
+7. ex35 - sorts/improve/extra
