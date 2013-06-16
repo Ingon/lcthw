@@ -5,3 +5,5 @@
 5. ex33 - improve/extra
 6. ex34 - improve/extra
 7. ex35 - sorts/improve/extra
+8. ex36 - improve/extra
+9. 
